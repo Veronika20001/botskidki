@@ -18,8 +18,8 @@ def get_start():
 new = dict_
 
 
-def get_button(new):
-    button_set = set(types.InlineKeyboardButton(i, callback_data=f'trademark{i}') for i in new.values)
+def get_button(categories_):
+    button_set = list(types.InlineKeyboardButton(i, callback_data=f'trademark{i}') for i in categories_)
     inline_kb1 = InlineKeyboardMarkup(row_width=1)
     inline_kb1.add(*button_set)
     inline_kb1.add(types.InlineKeyboardButton('Вернуться в главное меню', callback_data='get_start'))

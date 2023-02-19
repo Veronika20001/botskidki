@@ -2272,3 +2272,281 @@ Traceback (most recent call last):
 TypeError: 'builtin_function_or_method' object is not iterable
 dispatcher.py [LINE:433] #INFO     [2023-02-19 23:44:17,122] Stop polling...
 executor.py [LINE:329] #WARNING  [2023-02-19 23:44:17,123] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-19 23:58:01,113] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-19 23:58:01,346] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-19 23:58:01,347] Start polling.
+base_events.py [LINE:1744] #ERROR    [2023-02-19 23:58:05,593] Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 30, in category
+    reply_markup=keyboard.get_button(keyboard.new), parse_mode='Markdown')
+  File "C:\Users\User\Desktop\MyProjects\BotGS\keyboard.py", line 22, in get_button
+    button_set = set(types.InlineKeyboardButton(i, callback_data=f'trademark{i}') for i in new.values)
+TypeError: 'builtin_function_or_method' object is not iterable
+base_events.py [LINE:1744] #ERROR    [2023-02-19 23:58:17,698] Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 30, in category
+    reply_markup=keyboard.get_button(keyboard.new), parse_mode='Markdown')
+  File "C:\Users\User\Desktop\MyProjects\BotGS\keyboard.py", line 22, in get_button
+    button_set = set(types.InlineKeyboardButton(i, callback_data=f'trademark{i}') for i in new.values)
+TypeError: 'builtin_function_or_method' object is not iterable
+base_events.py [LINE:1744] #ERROR    [2023-02-20 00:00:05,253] Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 30, in category
+    reply_markup=keyboard.get_button(keyboard.new), parse_mode='Markdown')
+  File "C:\Users\User\Desktop\MyProjects\BotGS\keyboard.py", line 22, in get_button
+    button_set = set(types.InlineKeyboardButton(i, callback_data=f'trademark{i}') for i in new.values)
+TypeError: 'builtin_function_or_method' object is not iterable
+base_events.py [LINE:1744] #ERROR    [2023-02-20 00:00:17,538] Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 30, in category
+    reply_markup=keyboard.get_button(keyboard.new), parse_mode='Markdown')
+  File "C:\Users\User\Desktop\MyProjects\BotGS\keyboard.py", line 22, in get_button
+    button_set = set(types.InlineKeyboardButton(i, callback_data=f'trademark{i}') for i in new.values)
+TypeError: 'builtin_function_or_method' object is not iterable
+dispatcher.py [LINE:433] #INFO     [2023-02-20 00:00:24,080] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 00:00:24,081] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 00:01:09,758] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 00:01:09,884] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 00:01:09,884] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 00:03:18,497] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 00:03:18,498] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 00:09:26,505] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 00:09:26,644] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 00:09:26,645] Start polling.
+base_events.py [LINE:1744] #ERROR    [2023-02-20 00:09:39,732] Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 50, in trademark
+    types.InlineKeyboardButton(text=f"{list_rows[0][8]}", callback_data=f's{list_rows[0][8]}'),
+IndexError: list index out of range
+dispatcher.py [LINE:433] #INFO     [2023-02-20 00:11:02,126] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 00:11:02,127] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 00:12:24,391] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 00:12:24,530] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 00:12:24,530] Start polling.
+base_events.py [LINE:1744] #ERROR    [2023-02-20 00:12:26,890] Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 50, in trademark
+    types.InlineKeyboardButton(text=f"{list_rows[0][8]}", callback_data=f's{list_rows[0][8]}'),
+IndexError: list index out of range
+dispatcher.py [LINE:433] #INFO     [2023-02-20 00:22:51,629] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 00:22:51,631] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 00:44:01,101] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 00:44:01,304] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 00:44:01,305] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 00:55:45,506] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 00:55:45,511] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 00:57:14,604] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 00:57:14,739] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 00:57:14,739] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 01:01:06,987] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 01:01:06,997] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 01:03:06,652] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 01:03:06,793] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 01:03:06,793] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 01:03:52,326] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 01:03:52,327] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 01:04:01,030] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 01:04:01,161] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 01:04:01,161] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 01:04:53,264] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 01:04:53,265] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 01:05:13,292] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 01:05:15,312] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 01:05:15,313] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 01:06:00,450] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 01:06:00,452] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 01:06:23,128] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 01:06:23,268] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 01:06:23,268] Start polling.
+base_events.py [LINE:1744] #ERROR    [2023-02-20 01:06:26,178] Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest('Reply markup is too long')>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 23, in welcome
+    await bot.send_message(message.chat.id, text='Выберите категорию в которой хотите получить скидку \u2b07\ufe0f',
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Reply markup is too long
+base_events.py [LINE:1744] #ERROR    [2023-02-20 01:06:39,323] Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest('Reply markup is too long')>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 23, in welcome
+    await bot.send_message(message.chat.id, text='Выберите категорию в которой хотите получить скидку \u2b07\ufe0f',
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Reply markup is too long
+base_events.py [LINE:1744] #ERROR    [2023-02-20 01:06:41,215] Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest('Reply markup is too long')>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 23, in welcome
+    await bot.send_message(message.chat.id, text='Выберите категорию в которой хотите получить скидку \u2b07\ufe0f',
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Reply markup is too long
+base_events.py [LINE:1744] #ERROR    [2023-02-20 01:06:49,255] Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest('Reply markup is too long')>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\main.py", line 23, in welcome
+    await bot.send_message(message.chat.id, text='Выберите категорию в которой хотите получить скидку \u2b07\ufe0f',
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\User\Desktop\MyProjects\BotGS\venv\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Reply markup is too long
+dispatcher.py [LINE:433] #INFO     [2023-02-20 01:07:14,104] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 01:07:14,105] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 01:09:42,448] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 01:09:42,587] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 01:09:42,587] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 01:11:08,655] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 01:11:08,656] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 01:11:15,442] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 01:11:15,575] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 01:11:15,576] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 01:12:57,586] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 01:12:57,587] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 01:16:27,033] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 01:16:27,174] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 01:16:27,174] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 01:16:46,942] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 01:16:46,944] Goodbye!
+executor.py [LINE:362] #INFO     [2023-02-20 01:17:24,568] Bot: Скидки не за горами [@skidkitut6_bot]
+executor.py [LINE:358] #WARNING  [2023-02-20 01:17:24,704] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-02-20 01:17:24,705] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-02-20 01:17:36,714] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-02-20 01:17:36,717] Goodbye!

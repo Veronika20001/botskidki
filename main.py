@@ -38,16 +38,16 @@ async def trademark(call: types.CallbackQuery):
                                 'перейти по ссылке или скопировать '
                                 'значение купона с данной страницы и ввести его на сайте компании☺️')
     for row in list_rows:
-        await bot.send_message(chat_id=call.message.chat.id, text=f'Название: {row[0]}\n'
-                                                                  f'Скидка: {row[3]}\n'
-                                                                  f'Описание: {row[7]}\n'
-                                                                  f'Действует до: {row[5]}\n'
-                                                                  f'Регион: {row[6]}\n'
-                                                                  f'Ссылка: {row[4]}\n'
+        await bot.send_message(chat_id=call.message.chat.id, text=f'Название: '
+                                                                  f'Скидка: '
+                                                                  f'Описание: '
+                                                                  f'Действует до: '
+                                                                  f'Регион: '
+                                                                  f'Ссылка: '
                                                                   f'Промокод ниже👇')
         await bot.send_message(chat_id=call.message.chat.id, text=f'{row[2]}')
     buttons = [
-        types.InlineKeyboardButton(text=f"{list_rows[0][8]}", callback_data=f's{list_rows[0][8]}'),
+        types.InlineKeyboardButton(text=f"{list_rows[0][8]}", callback_data=f'trademark{list_rows[0][8]}'),
         types.InlineKeyboardButton(text="Главное меню", callback_data='get_start')
     ]
     keyboard_ = types.InlineKeyboardMarkup(row_width=1)
